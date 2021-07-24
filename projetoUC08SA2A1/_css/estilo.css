@@ -1,0 +1,70 @@
+body {
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    gap: 10px;
+    min-height: 700px;
+}
+
+section .logo   {
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+    text-align: center;
+    background-color: bisque;
+
+}
+
+section .cabecalho {
+    grid-column: 2/span 5;
+    grid-row: 1/span 1;
+    background-color: bisque;
+
+}
+
+section .busca {
+    grid-column: 1/span 5;
+    grid-row: 2/span 1;
+    background-color: bisque;
+
+}
+
+section .links  {
+    grid-column: 1/span 1;
+    grid-row: 3/span 2;
+    text-align: left;
+    background-color: bisque;
+}
+
+section .cont1 {
+    grid-column: 2/span 1;
+    grid-row: 3/span 1;
+    background-color: bisque;
+}
+
+section .cont2 {
+    grid-column: 3/span 1;
+    grid-row: 3/span 1;
+    background-color: bisque;
+}
+section .cont3 {
+    grid-column: 2/span 1;
+    grid-row: 4/span 1;
+    background-color: bisque;
+}
+section .cont4 {
+    grid-column: 3/span 1;
+    grid-row: 4/span 1;
+    background-color: bisque;
+}
+
+section .rodape {
+    grid-column: 1/span 3;
+    grid-row: 5/span 1;
+    background-color: bisque;
+} 
